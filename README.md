@@ -23,7 +23,7 @@ project:
     name: $YOUR_PROJECT_NAME
 instance:
     name: dev
-    runtime: python
+    runtime: python3
     region: aws.euw1
     application-id: $YOUR_VONAGE_APPLICATION_ID
     entrypoint: [python3, main.py]
