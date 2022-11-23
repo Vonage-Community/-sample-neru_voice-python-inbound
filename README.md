@@ -34,7 +34,7 @@ debug:
     entrypoint: [nodemon, --exec, python3, -m, debugpy, --listen, localhost:9229, main.py]
 ```
 
-Create a Python virtual environment, Python 3.10 or higher is required:
+Create a Python virtual environment, Python 3.10.5 or higher is required:
 
 ```sh
 python3 -m venv venv
@@ -69,7 +69,7 @@ make deploy
 Or run the following commands:
 
 ```sh
-pip3 install -r requirements.txt --python-version 3.10 --platform manylinux2014_x86_64 --only-binary=:all: --target=./vendor
+pip3 install -r requirements.txt --python-version 3.10.5 --platform manylinux2014_x86_64 --only-binary=:all: --target=./vendor
 
 neru deploy
 ```
