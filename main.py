@@ -46,7 +46,7 @@ async def onCall(request: Request):
         ]
 
 @app.post('/onEvent')
-async def onCall(request: Request):
+async def onEvent(request: Request):
     body = await request.json()
     print('event status is:', body['status'])
     print('event direction is:', body['direction'])
