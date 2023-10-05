@@ -1,5 +1,7 @@
 # Receiving an Inbound Call Using NeRu, Python and the Voice API
 
+## ❗❗❗ **This repo is now deprecated. Check the [Vonage Developer Blog](https://developer.vonage.com/en/blog) for more blog posts and tutorials. For more sample Vonage projects, check the [Vonage Community GitHub repo](https://github.com/Vonage-Community).**
+
 This project shows how to use NeRu and Python to receive an inbound call with the Voice API.
 
 ## Running the project
